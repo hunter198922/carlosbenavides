@@ -1,0 +1,191 @@
+body {
+    background: blanchedalmond;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+   
+
+
+}
+nav{
+    background: #c7222269;
+    color: rgba(255, 0, 149, 0.671);
+    height: 4em;
+    position: fixed;
+    width: 100%; 
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 2em;
+    line-height: 2em;
+}
+nav ul li a{
+    color: rgb(20, 146, 196);
+    font-size: 1.2em;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:rgb(150, 28, 28);
+}
+header{
+    background-image: url('../img/fondofinal.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 2em 0em;
+}
+.mi-foto{
+    border-radius: 50%;
+    border: 2px rgb(12, 9, 8) solid    
+}
+.mi-foto:hover{
+    width: 40%;
+}
+/* #prueba{
+    border: 2px rgb(106, 109, 122) solid;
+    width: 50%;
+    margin: 3em auto;
+    padding: 2em;
+} */
+h1 {
+    color: white;
+    text-shadow: 2px -2px 5px rgb(209, 209, 43);
+}
+header a{
+    color: white;
+    font-size: 1.5em;
+    text-shadow: 2px -2px 7px rgb(29, 44, 160);
+}
+section {
+    width: 80%;
+    border: 2px red;
+    margin: 2em auto;
+    padding: 2em;
+    box-shadow: 10px 10px 20px 5px black;
+}
+section h2{
+    color: rgb(27, 14, 146);
+    border-bottom: 4px rgb(0, 162, 255) dashed;
+    margin: 2em 0;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+#perfil p{
+    margin-bottom: 1em;
+}
+.destacado{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color: blue;
+
+}
+.Azul{
+    color: rgb(68, 0, 255);
+    font-weight: bold;
+    border: 2px black solid;
+    margin-right: 1.5em;
+    text-decoration: none;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 0px;
+    background-color: rgb(211, 38, 38);
+}
+.Gris{
+    color: gray;
+    font-weight: bold;
+    border: 2px black solid;
+    margin-right: 1.5em;
+    text-decoration: none;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 20px;
+    background-color: aqua;
+}
+.Azul:hover{
+    color: gray;
+}
+.Gris:hover{
+    color: blue;
+}
+.fila{
+    margin-bottom: 1em;
+}
+#habilidades .col{
+    margin-bottom: 1.5em;
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+#estudios .col{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+.logos{
+    width: 35%;
+}
+.texto{
+    width: 60%;
+    display: inline-block;
+}
+#proyectos .col{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.formulario{
+    display: block;
+    border: 3px aqua solid; 
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 15px;
+}
+#contactos .col{
+    width: 25%;
+}
+#contactos .mapa{
+    width: 40%;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 3em;
+}
+footer i{
+    font-size: 1.3em;
+    margin: 0.5em 0.3%em;
+    text-decoration: none;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+.flecha{
+    box-shadow: 0px 0px 5px 5px white;
+    width: 40px;
+    height: 40px;
+    position: fixed ;
+    bottom: 30px;
+    right: 30px;
+    background: rgb(219, 218, 218);
+    color: white;
+    font-size: 2em;
+    border-radius: 50%;
+    background: rgb(235, 52, 52);
+}
+.flecha a{
+    color:aqua;
+
+}
